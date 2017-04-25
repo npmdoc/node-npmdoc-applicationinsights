@@ -1,4 +1,7 @@
-# api documentation for  [applicationinsights (v0.19.0)](https://github.com/Microsoft/ApplicationInsights-node.js#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-applicationinsights.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-applicationinsights) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-applicationinsights.svg)](https://travis-ci.org/npmdoc/node-npmdoc-applicationinsights)
+# npmdoc-applicationinsights
+
+#### basic api documentation for  [applicationinsights (v0.19.0)](https://github.com/Microsoft/ApplicationInsights-node.js#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-applicationinsights.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-applicationinsights) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-applicationinsights.svg)](https://travis-ci.org/npmdoc/node-npmdoc-applicationinsights)
+
 #### Microsoft Application Insights module for Node.JS
 
 [![NPM](https://nodei.co/npm/applicationinsights.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/applicationinsights)
@@ -83,7 +86,8 @@
         "pretest": "find Tests -type f -name \"*.ts\" | xargs tsc --module commonjs",
         "test": "./node_modules/mocha/bin/mocha ./Tests --recursive"
     },
-    "version": "0.19.0"
+    "version": "0.19.0",
+    "bin": {}
 }
 ```
 
